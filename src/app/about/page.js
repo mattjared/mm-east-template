@@ -1,6 +1,4 @@
 import Image from 'next/image'
-import Tiles from "./Tiles"
-import Contact from "./Contact"
 
 export default function Home() {
   return (
@@ -11,8 +9,6 @@ export default function Home() {
         <h2 className='text-6xl font-bold'>Account Executive @ Vercel</h2>
         <p className="font-normal text-gray-600 text-md md:text-xl my-16">Selling software and keepign it A1 since Day 1</p>
       </section>
-      <Contact />
-      <Tiles />
     </main>
   )
 }
