@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import QuoteTiles from '../QuoteTiles'
 
 export default function About() {
