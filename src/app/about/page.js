@@ -7,7 +7,7 @@ export default function About() {
         <h1 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">{`my name`}</h1>
         <h2 className='text-6xl font-bold'>Account Executive @ Vercel</h2>
       </section>
-      <section>
+      <section className="py-10 md:py-16 container max-w-screen-xl mx-auto px-4">
         <h3>Here are a list of my favorite quotes:</h3>
         <QuoteTiles />
       </section>

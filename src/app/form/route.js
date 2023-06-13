@@ -8,7 +8,7 @@ const postmarkApp = new postmark.ServerClient(POSTMARK_API);
 export async function POST(request) {
   const data = await request.json();
   try {
-    const messageInfo = `\n---\n>>>from:${data.email} \n>>>name: ${data.name} \n>>>url: ${route }`;
+    const messageInfo = `\n---\n>>>from:${data.email} \n>>>name: ${data.name} \n>>>url: ${route}`;
     postmarkApp.sendEmail({
         "From": POSTMARK_EMAIL_FROM,
         "To": POSTMARK_EMAIL_TO,
