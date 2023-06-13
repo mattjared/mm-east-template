@@ -2,10 +2,8 @@ import Image from 'next/image'
 import Tiles from "./Tiles"
 import Contact from "./Contact"
 import Footer from "./Footer"
-const POSTMARK_EMAIL_TO=process.env.NEXT_PUBLIC_POSTMARK_EMAIL_TO;
 
 export default function Home() {
-  console.log(POSTMARK_EMAIL_TO);
   return (
     <main className='bg-gray-100'>
       <section className="py-10 md:pt-24 md:pb-12 container max-w-screen-xl mx-auto px-4 text-center">
