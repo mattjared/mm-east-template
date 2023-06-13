@@ -1,6 +1,8 @@
+import { route } from "./utils/routing";
+
 export default async function QuoteTiles() {
   async function getData() {
-    const res = await fetch('http://localhost:3000/quotes')
+    const res = await fetch(`${route}/quotes`)
     if (!res.ok) { throw new Error('Failed to fetch data') }
     return res.json()
   }
