@@ -5,6 +5,7 @@ import Footer from "./Footer"
 const POSTMARK_EMAIL_TO=process.env.NEXT_PUBLIC_POSTMARK_EMAIL_TO;
 
 export default function Home() {
+  console.log(POSTMARK_EMAIL_TO);
   return (
     <main className='bg-gray-100'>
       <section className="py-10 md:pt-24 md:pb-12 container max-w-screen-xl mx-auto px-4 text-center">
@@ -13,7 +14,6 @@ export default function Home() {
         <h2 className='text-6xl font-bold'>Account Executive @ Vercel</h2>
         <p className="font-normal text-gray-600 text-md md:text-xl my-16">Selling software and keepign it A1 since Day 1</p>
       </section>
-      <>{POSTMARK_EMAIL_TO}</>
       <Contact />
       <Tiles />
       <Footer />
