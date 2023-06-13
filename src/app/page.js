@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Tiles from "./Tiles"
 import Contact from "./Contact"
+import Footer from "./Footer"
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       </section>
       <Contact />
       <Tiles />
+      <Footer />
     </main>
   )
 }

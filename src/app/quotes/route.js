@@ -15,8 +15,9 @@ export async function GET() {
       "person": "Bessie Coleman"
     }
   ];
+  return new Response(JSON.stringify(quotes));
   // console.log(JSON.stringify(quotes[0]))
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  const randomQuote = quotes[randomIndex];
-  return new Response(JSON.stringify(randomQuote));
+  // const randomIndex = Math.floor(Math.random() * quotes.length);
+  // const randomQuote = quotes[randomIndex];
+  // return new Response(JSON.stringify(randomQuote));
 }
