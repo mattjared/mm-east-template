@@ -10,7 +10,7 @@ export default function About() {
       </section>
       <section>
         <h3>Here are a list of my favorite quotes:</h3>
-        <QuoteTiles />
+        {/* <QuoteTiles /> */}
       </section>
     </main>
   )
