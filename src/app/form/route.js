@@ -1,4 +1,4 @@
-import { route } from "./utils/routing";
+import { route } from "../utils/routing";
 const POSTMARK_API = process.env.NEXT_PUBLIC_POSTMARK_API;
 const POSTMARK_EMAIL_FROM = process.env.NEXT_PUBLIC_POSTMARK_EMAIL_FROM;
 const POSTMARK_EMAIL_TO=process.env.NEXT_PUBLIC_POSTMARK_EMAIL_TO;
