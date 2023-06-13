@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import QuoteTiles from '../QuoteTiles'
 
-export default function Home() {
+export default function About() {
   return (
     <main className='bg-gray-100'>
       <section className="py-10 md:pt-24 md:pb-12 container max-w-screen-xl mx-auto px-4 text-center">
