@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Tiles from "./Tiles"
 import Contact from "./Contact"
+import BookTrainingComp from "./BookTrainingComp"
 import Footer from "./Footer"
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       </section>
       <Contact />
       <Tiles />
+      <BookTrainingComp />
       <Footer />
     </main>
   )
