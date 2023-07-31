@@ -1,0 +1,4 @@
+// https://vercel.com/docs/concepts/edge-network/regions
+{
+  "regions": ["sfo1", "pdx1"]
+}
